@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# COMP313-Final-Project
+Web app project to store diabetes patient's lab results
+# How to run the app
 
 # Start Frontend and Backend
 
@@ -13,6 +13,3 @@ npm run server
 
 npm run client
 =======
-# Diabetes-Patient-Management-System
-Web app project to store diabetes patient's lab results
->>>>>>> cfb8cfa98f4c35138b615c27fe7c561f9c27789d
