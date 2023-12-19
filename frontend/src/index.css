@@ -1,0 +1,107 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* This is the wrapping div that contains everything except the footer */
+.app-wrapper {
+  display: flex; /* Enable flex layout */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100%; /* Minimum height is the full height of the viewport */
+}
+
+/* This will push the footer to the bottom */
+main.py-3 {
+  flex: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.d-flex > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.wide-column {
+  min-width: 120px; /* Adjust the width as needed */
+  text-align: center;
+}
+
+.medium-column {
+  min-width: 50px; /* Adjust the width as needed */
+  text-align: center;
+}
+.small-form .small-input {
+  width: auto; /* Adjust this to  preference */
+  max-width: 100%; /* Ensure it doesn't overflow its container */
+}
+
+/* Optional */
+.small-form .form-label {
+  font-size: smaller; /* Adjust label font size */
+}
+
+.half-width-input {
+  max-width: 70%;
+}
+
+.urinalysis-table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.urinalysis-table th,
+.urinalysis-table td {
+  text-align: left; /* Align text to the left */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.container {
+  overflow-x: auto; /* Enable horizontal scrolling if table overflows */
+}
+
+@media (min-width: 1200px) {
+  .wide-container {
+    max-width: 95%;
+  }
+}
+
+.full-width-table {
+  width: 100%;
+  min-width: 100%;
+  table-layout: fixed;
+}
+
+/* Optional: Add this if you want horizontal scrolling on the table */
+.scrollable-table-container {
+  overflow-x: auto;
+}
+
+/* Ensure the table header and cells stretch appropriately */
+.full-width-table th,
+.full-width-table td {
+  white-space: nowrap;
+}

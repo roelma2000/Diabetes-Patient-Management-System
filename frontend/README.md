@@ -1,0 +1,1 @@
+Go to root folder and run the app. See Readme for details.
